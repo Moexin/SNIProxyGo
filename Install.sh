@@ -23,7 +23,7 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
-ExecStart=/usr/local/bin/SNIProxyGo -config /usr/local/etc/SNIProxyGo.yaml
+ExecStart=/usr/local/bin/SNIProxyGo -c /usr/local/etc/SNIProxyGo.yaml
 LimitNOFILE=51200
 Restart=always
 RestartSec=60
