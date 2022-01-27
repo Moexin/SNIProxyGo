@@ -12,7 +12,7 @@ cat > /usr/local/bin/SNIProxyGo.sh <<EOF
 #!/bin/bash
 systemctl stop SNIProxyGo
 rm -f /usr/local/etc/SNIProxyGo.yaml
-wget -P /usr/local/bin -T 15 -t 30 -c -q --show-progress --retry-connrefused https://raw.githubusercontent.com/Moexin/SNIProxyGo/main/SNIProxyGo.yaml
+wget -P /usr/local/etc -T 15 -t 30 -c -q --show-progress --retry-connrefused https://raw.githubusercontent.com/Moexin/SNIProxyGo/main/SNIProxyGo.yaml
 systemctl start SNIProxyGo
 EOF
 echo '配置进程守护'
