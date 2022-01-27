@@ -1,7 +1,4 @@
 rules:
-  - netflix.com
-  - netflix.net
-  - nflximg.net
-  - nflxvideo.net
-  - nflxso.net
-  - nflxext.com
+  - google.com
+  - startpage.com
+  - themoviedb.org
